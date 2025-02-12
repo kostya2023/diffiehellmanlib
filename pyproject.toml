@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "scikit-build>=0.13", "cmake>=3.14", "cryptography>=3.4"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffiehellmanlib"
+version = "4.0a0"
+description = "Diffie-Hellman key exchange implementation"
+authors = [
+    { name = "Konstantin Gorshkov", email = "kostya_gorshkov_06@vk.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++ :: 20",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+    "cryptography>=3.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/kostya2023/diffiehellmanlib"
+
+[tool.scikit-build]
+cmake.define.CMAKE_BUILD_TYPE = "Release"
+cmake.install.dir = "diffiehellmanlib"  # Указываем, куда копировать скомпилированную библиотеку

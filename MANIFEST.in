@@ -1,0 +1,3 @@
+include diffiehellmanlib/src/*.cpp
+include diffiehellmanlib/src/*.h
+include CMakeLists.txt
