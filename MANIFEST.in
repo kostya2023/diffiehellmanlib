@@ -1,3 +1,4 @@
-include diffiehellmanlib/src/*.cpp
-include diffiehellmanlib/src/*.h
-include CMakeLists.txt
+include pyproject.toml
+include LICENSE
+include diffiehellmanlib.pyi
+recursive-include src *
