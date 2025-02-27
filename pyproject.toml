@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "diffiehellmanlib"
-version = "5.0.0"
+version = "5.0.1"
 description = "Diffie-Hellman key exchange library"
 readme = "README.md"
 authors = [{name = "Gorshkov Kostantin", email = "kostya_gorshkov_06@vk.com"}]

@@ -1,6 +1,6 @@
 [package]
 name = "diffiehellmanlib"
-version = "5.0.0"
+version = "5.0.1"
 edition = "2021"
 authors = ["Gorshkov Kostantin <kostya_gorshkov_06@vk.com>"]
 description = "Secure Diffie-Hellman key exchange implementation"
